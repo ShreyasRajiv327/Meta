@@ -8,7 +8,7 @@ Executing Programs
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Hello.sol). Copy and paste the following code into the file:
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., Hello.sol). Copy and paste the  code present in the createatoken.sol fileinto the file:
 
 Authors
 
