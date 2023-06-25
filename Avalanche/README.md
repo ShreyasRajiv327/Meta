@@ -4,7 +4,7 @@ This project is about handling errors using revert(),require() functions.
 
 ## Description
 
-In this project we shall be handling error with the help of useful functions in sol suchs as revert(),require(),asser()
+In this project we shall be  writing smarct coontracts and will be handling errors with the help of useful functions in sol suchs as revert(),require(),asser()
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
