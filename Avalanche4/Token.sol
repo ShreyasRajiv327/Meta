@@ -15,9 +15,15 @@ contract Token is ERC20 {
         _;
     }
 
-    function mint(address account, uint256 amount) external onlyOwner {
-        _mint(account, amount);
-    }
+    function mint(address _to, uint256 _value) external onlyOwner returns (bool) {
+    require(_to != address(0), "Invalid recipient address.");
+
+    balanceOf[_to] += _value;
+    totalSupply += _value;
+
+    emit Transfer(address(0), _to, _value);
+    return true;
+}
 
     function transfer(address recipient, uint256 amount) public override returns (bool) {
         _transfer(msg.sender, recipient, amount);
